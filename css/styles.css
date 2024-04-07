@@ -36,6 +36,10 @@ address {
     font-style: normal;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -151,9 +155,14 @@ address {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
+    border: none;
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 182px;
+    height: 56px;
 }
 
 
@@ -175,10 +184,12 @@ padding-bottom: 120px;
 .features-list {
     padding-left: 156px;
     padding-right: 156px;
+    display: flex;
+    gap: 24px;
 }
 
 .features-item {
-
+width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -218,11 +229,15 @@ padding-bottom: 120px;
 }
 
 .taste-list {
-    background-color: #FFFFFF;
+
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) /4);
 }
 
 .taste-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 }
 
 .taste-image {}
@@ -245,6 +260,7 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
 }
 
 /*------------------made-----------------*/
@@ -265,11 +281,22 @@ padding-bottom: 120px;
     margin-bottom: 72px;
 }
 
-.made-item {}
+.made-item {
+    display: flex;
+    flex-wrap: wrap;
+    /*column-gap: 24px;
+    row-gap: 48px; */
+    gap: 48px 24px;
+}
 
-.made-list {}
+.made-list {
+    width: calc((100% - 72px) /3);
+    p
+}
 
-.made-image {}
+.made-image {
+    margin: 0 auto;
+}
 
 .made-name {
     font-weight: 500;
