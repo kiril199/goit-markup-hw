@@ -200,7 +200,7 @@ width: 1px;
 border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width calc((100% - 3 * 24px) / 4);
-    height: 380px;
+    height: 104px;
 }
 
 .features-subtitle {
