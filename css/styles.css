@@ -316,7 +316,7 @@ overflow: hidden;
 }
 
 .made-list {
-    width: calc((100% - 72px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .made-image {
