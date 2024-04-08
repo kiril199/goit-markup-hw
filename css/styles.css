@@ -317,6 +317,9 @@ overflow: hidden;
 
 .made-list {
     width: calc((100% - 48px) / 3);
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 300px;
 }
 
 .made-image {
