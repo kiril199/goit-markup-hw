@@ -192,11 +192,11 @@ padding-bottom: 120px;
 }
 
 .features-item {
-width calc((100% - 3 * 24px) / 4)
 border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
     height: 380px;
+    width calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
