@@ -181,7 +181,12 @@ padding-bottom: 120px;
 }
 
 .visually-hidden{
-
+clip-path: inset(50%);
+height: 1px;
+overflow: hidden;
+position: absolute;
+white-space: nowrap;
+width: 1px;
 }
 
 .features-list {
