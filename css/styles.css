@@ -181,12 +181,16 @@ padding-bottom: 120px;
 }
 
 .visually-hidden{
-clip-path: inset(50%);
-height: 1px;
-overflow: hidden;
 position: absolute;
-white-space: nowrap;
 width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .features-list {
@@ -197,10 +201,10 @@ width: 1px;
 }
 
 .features-item {
-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width calc((100% - 3 * 24px) / 4);
-    height: 104px;
+    width: calc((100% - 3 * 24px) / 4);
+    height: 120px;
 }
 
 .features-subtitle {
