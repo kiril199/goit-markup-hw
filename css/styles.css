@@ -198,6 +198,7 @@ overflow: hidden;
     padding-right: 156px;
     display: flex;
     gap: 24px;
+    height: 104px;
 }
 
 .features-item {
