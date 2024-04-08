@@ -241,14 +241,14 @@ overflow: hidden;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .taste-list {
     display: flex; 
     gap: 24px;
 }
-
 
 .taste-item {
     background-color: #FFFFFF;
@@ -259,6 +259,11 @@ overflow: hidden;
 .taste-image {
     width: 264px;
     height: 260px;
+}
+
+.taste-container {
+    padding: 32px 0;
+
 }
 
 .taste-name {
