@@ -238,13 +238,13 @@ border-radius: 0 0 4px 4px;
 
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) /4);
 }
 
 .taste-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-}
+        width: calc((100% - 72px) /4);
+        }
 
 .taste-image {}
 
