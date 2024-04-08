@@ -312,6 +312,8 @@ overflow: hidden;
 
 .made-image {
     margin: 0 auto;
+    width: 360px;
+    height: 300px;
 }
 
 .made-name {
@@ -330,6 +332,7 @@ overflow: hidden;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
 }
 
 /*----------------footer-----------------*/
