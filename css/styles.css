@@ -235,9 +235,8 @@ border-radius: 0 0 4px 4px;
 }
 
 .taste-list {
-flex-wrap: wrap;
-    display: flex;
-    gap: 24px 66px;
+    display: flex; 
+    gap: 24px;
 }
 
 .taste-item {
