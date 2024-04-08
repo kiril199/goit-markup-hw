@@ -180,6 +180,10 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
+.visually-hidden {
+
+}
+
 .features-list {
     padding-left: 156px;
     padding-right: 156px;
