@@ -259,7 +259,10 @@ overflow: hidden;
     width: calc((100% - 72px) /4);
     }
 
-.taste-image {}
+.taste-image {
+    width: 264px;
+        height: 260px;
+}
 
 .taste-name {
     font-weight: 500;
